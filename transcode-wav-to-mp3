@@ -1,0 +1,1 @@
+ffmpeg -i {input}.wav -c:a libmp3lame -b:a 256k -ar 44100 {output}.mp3
