@@ -1,0 +1,1 @@
+for f in *.wav; do ffmpeg -i "$f" -c:a aac -b:a 256k "${f%.wav}.m4a"; echo "done"; done
